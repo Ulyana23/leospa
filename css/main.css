@@ -119,10 +119,11 @@ a {
 }
 
 .video-btn {
-  padding: 20px 20px 20px 25px;
+  width: 45px;
+  height: 45px;
   color: #ff817e;
-  line-height: 40%;
-  font-size: 40px;
+  line-height: 42px;
+  font-size: 20px;
   background: #fcf5ee;
   border-radius: 50%;
 }
