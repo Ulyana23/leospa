@@ -16,26 +16,19 @@
 }
 
 .header__inner {
-  .header__logo {
-    width: 45%;
-
-    .logo__icon {
-      display: flex;
-
-      width: 30%;
-      margin: 0 auto;
-    }
-
-    .logo__text {
-      font-size: 30px;
-      line-height: 1;
-      @include font-playfair();
-    }
-  }
-
   .header__navbar {
     display: flex;
     justify-content: space-between;
+  }
+
+  .header__menu {
+    display: none;
+    width: 100%;
+    text-align: end;
+
+    .menu__icon {
+      font-size: 25px;
+    }
   }
 }
 
@@ -90,7 +83,6 @@
 .intro__watch-video {
   display: flex;
   align-items: center;
-
   cursor: pointer;
 }
 
@@ -195,6 +187,8 @@
 //--FOOTER
 .footer {
   .footer__logo {
+    display: block;
+
     width: 14%;
     margin: 0 auto;
   }

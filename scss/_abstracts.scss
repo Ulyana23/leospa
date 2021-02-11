@@ -31,8 +31,7 @@ $dark-gray-color: #555;
   /* ползунок скроллбара */
   &::-webkit-scrollbar-thumb {
     background-color: $gray-color;
-    border-radius: 9em;
-    cursor: pointer;
+    border-radius: 25px;
   }
 
   &::-webkit-scrollbar-thumb:hover {
