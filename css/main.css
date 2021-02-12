@@ -973,6 +973,10 @@ a {
     line-height: 42px;
     font-size: 17px;
   }
+
+  .footer .footer__logo {
+    width: 100%;
+  }
 }
 @media (max-width: 360px) {
   .get-in-touch__contacts {
