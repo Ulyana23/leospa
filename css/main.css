@@ -45,8 +45,7 @@ textarea {
 img {
   border: 0;
   display: block;
-  max-width: 100%;
-  margin: auto 0;
+  width: 100%;
 }
 
 button, button:focus {
