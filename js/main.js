@@ -4,11 +4,16 @@ $(function () {
         $('.header').toggleClass('page--cream');
         $('.header__navbar').slideToggle();
     });
-});
 
-function myScroll(scrollClass) {
-    myTop = $(scrollClass).offset().top;
-    $("html, body").animate({
-        scrollTop: myTop
-    }, 100);
-}
+    $("[data-scroll]").click(function (event) {
+        event.preventDefault(); //отменяем стандартное поведение ссылки
+
+        var blockId = $(this).data("scroll"),
+            blockOffset = $(blockId).offset().top;
+
+        $("html, body").animate({
+            scrollTop: blockOffset
+        }, 1000);
+
+    });
+});
