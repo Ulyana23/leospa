@@ -12,6 +12,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   box-sizing: border-box;
 }
 
+.col-9 {
+  position: static!important;
+}
+
 html {
   height: 100%;
 } /* always display scrollbars */
@@ -56,14 +60,18 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .mr-5 {
-  margin-right: 50px;
+  margin-right: 50px!important;
 }
 
 .mr-2 {
-  margin-right: 20px;
+  margin-right: 20px!important;
 }
 
 .mr-1 {
-  margin-right: 10px;
+  margin-right: 10px!important;
 }
